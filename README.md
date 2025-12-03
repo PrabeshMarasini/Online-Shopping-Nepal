@@ -46,3 +46,9 @@ Open your browser to: `http://127.0.0.1:8000`
 - Click "Add to Cart" to add items
 - Use discount codes: CODE10 or CODE20
 - Manage cart quantities in the sidebar
+
+## Solving Errors
+
+- Make sure that the essential drivers in php.ini are unlocked:
+ex: extension=pdo_sqlite
+    extension=sqlite3
